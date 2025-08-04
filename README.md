@@ -6,11 +6,16 @@
 - نصب داکر
 - دانلود پروژه از گیت هاب 
 - اجرای دستور زیر برای build  گرفتن از پروژه
-```docker-compose up -d --build
+```
+docker-compose up -d --build
+```
+- پروژه با موفقیت build  اجرا میشود حال برای نصب دپندنسی های پروژه وارد محیط کانتینر میشویم     
+```
 docker exec -it ijdcs bash
 ```
 - حال میبینید وارد محیط کانتینر شدید و برای نصب دپندنسی ها دستورات زیر را وارد کنید
-```composer install
+```
+composer install
 php artisan key:generate
 php artisan migrate
 php artisan optimize:clear
