@@ -13,7 +13,7 @@
 ```composer install
 php artisan key:generate
 php artisan migrate
-php artisan optimize:clear
+php artisan optimize:clear```
 - حال پروژه اماده اجرا است و مروگر خود را باز کنید و فقط فقط کلمه localhost  را وارد کنید
 - نکته : اگر پروژه بالا نیامد و خطای عدم اتصال داد حتما حتما توجه کنید که داخل قسمت url فقط فقط کلمه localhost  باشد حتی http یا  https  هم نباشد
 
