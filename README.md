@@ -10,10 +10,10 @@
 - پروژه با موفقیت build  اجرا میشود حال برای نصب دپندنسی های پروژه وارد محیط کانتینر میشویم     
 `docker exec -it ijdcs bash`
 - حال میبینید وارد محیط کانتینر شدید و برای نصب دپندنسی ها دستورات زیر را وارد کنید
-`composer install`
-`php artisan key:generate`
-`php artisan migrate`
-`php artisan optimize:clear`
+```composer install
+php artisan key:generate
+php artisan migrate
+php artisan optimize:clear
 - حال پروژه اماده اجرا است و مروگر خود را باز کنید و فقط فقط کلمه localhost  را وارد کنید
 - نکته : اگر پروژه بالا نیامد و خطای عدم اتصال داد حتما حتما توجه کنید که داخل قسمت url فقط فقط کلمه localhost  باشد حتی http یا  https  هم نباشد
 
